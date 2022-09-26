@@ -1,0 +1,107 @@
+<html>
+<style>
+	span
+	{
+		background: yellow;
+	}
+	.song
+	{
+		background: blueviolet;
+	}
+	div.names
+	{
+		height: 150px;
+		width: 250px;
+		border: 10px solid black;
+		float: left;
+
+	}
+	div#first
+	{
+        background: red;
+	}
+	div#second
+	{
+        background: blueviolet;
+	}
+	div#third
+	{
+        background: greenyellow;
+	}
+	div#fourth
+	{
+        background: burlywood;
+	}
+	div.service
+	{
+		height: 150px;
+		width: 250px;
+		border: 10px solid black;
+		float: right;
+	}
+	.nav-links
+		{
+			flex: 1;
+			text-align: right;
+		}
+		.nav-links ul li
+		{
+			list-style: none;
+			display: inline-block;
+			padding: 8px 12px;
+			position: relative;
+			border: 1px solid #f44336;
+
+		}
+		.nav-links ul li a
+		{
+			color: #fff;
+			text-decoration: none;
+			font-size: 13px;
+		}
+		.nav-links ul li::after
+		{
+			content: '';
+			width: 0%;
+			height: 2px;
+			background: #f44336;
+			display: block;
+			margin: auto;
+			transition: 0.5s;
+		}
+		.nav-links ul li:hover::after
+		{
+			width: 100%;
+		}
+		padding{
+			color: #fff;
+		}
+	</style>
+	<body bgcolor="brown">
+		<nav>
+	<a href="index.html"><img src="fablo.png" height="90PX" width="90PX"></a>
+	<div class="nav-links">
+		<ul>
+			<li><a href="web.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="courses.html">COURSE</a></li>
+			<li><a href="gallery.html">GALLERY & MOTIVATION</a></li>
+			<li><a href="sign up.html">Sign Up</a></li>
+		</ul>
+	</div>
+	<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+		<fieldset style="color: #fff;">
+	<h1 style="text-align: center;">Our services</h1>
+</fieldset>
+<p style="text-align:center; color: #fff;">By the way, <b style="color:orange;">We as team Backend-support</b>would like to present you the way my organization works, we are in partnership with the learners about helping them to keep well their task includes their coursed<br/>Backendsupport is working under the condition of no violating any campus's structure way of instructing their learners.
+</p>
+
+</section>
+<div class="service" id="first"><img src="fablo.png" height=90px width=90px><b>Assignment<b><br/></div>
+	<div class="names" id="second" style="text-align: center; color: burlywood; font-family: Times New Roman; text-decoration: initial;"><img src="fablo.png" height=90px width=90px>
+		Quick innovation and success system<b></div>
+		<div class="names" id="third"><img src="fablo.png" height=90px width=90px><b>Model Questions<b></div>
+			<div class="names" id="fourth"><img src="fablo.png" height=90px width=90px><b>Project Proposals<b></div>
+				<div class="names"><img src="fablo.png" height=90px width=90px><b>Done Project<b></div>
+					</section>
